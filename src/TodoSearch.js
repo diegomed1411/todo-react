@@ -1,11 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './TodoSearch.css';
 
-const TodoSearch = () => {
-    return (
-        <div>
-            
-        </div>
-    )
+function TodoSearch() {
+  return (
+    <input className="TodoSearch" placeholder="Cebolla" />
+  );
 }
 
-export default TodoSearch
+export { TodoSearch };
